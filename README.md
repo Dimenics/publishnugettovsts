@@ -1,6 +1,6 @@
 # Pack and Publish NuGet packages to VSTS package feed
 
-This repository contains code to create a NuGet package for a `.csproj` file and to publish the same package to a [VSTS feed](https://docs.microsoft.com/en-us/vsts/package/get-started-nuget).
+This repository contains code for a Visual Studio Extension to create a NuGet package for a `.csproj` file and to publish it to a [VSTS feed](https://docs.microsoft.com/en-us/vsts/package/get-started-nuget).
 
 ## Prerequisites
 
