@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 
-namespace Dime.PublishToVSTS
+namespace Dime.PublishToAzureDevOps
 {
     internal static class LocateFile
     {

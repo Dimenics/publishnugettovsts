@@ -3,7 +3,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 
-namespace Dime.PublishToVSTS
+namespace Dime.PublishToAzureDevOps
 {
     [PackageRegistration(UseManagedResourcesOnly = true)]
     [InstalledProductRegistration("#1110", "#1112", "1.0", IconResourceID = 1400)]

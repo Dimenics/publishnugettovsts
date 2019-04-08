@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.Shell;
 using System.ComponentModel;
 
-namespace Dime.PublishToVSTS
+namespace Dime.PublishToAzureDevOps
 {
     /// <summary>
     /// Provides a dialog box in the Tools -> Options page allowing to modify the source and the path
@@ -24,11 +24,11 @@ namespace Dime.PublishToVSTS
         }
 
         /// <summary>
-        /// Gets or sets the unique name of the VSTS NuGet feed
+        /// Gets or sets the unique name of the Azure DevOps NuGet feed
         /// </summary>
         [Category("Dime")]
-        [DisplayName("VSTS Source")]
-        [Description("VSTS Source")]
+        [DisplayName("Azure DevOps Source")]
+        [Description("Azure DevOps Source")]
         public string Source
         {
             get { return _source; }

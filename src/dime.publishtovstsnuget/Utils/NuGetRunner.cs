@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.IO;
 
-namespace Dime.PublishToVSTS
+namespace Dime.PublishToAzureDevOps
 {
     internal static class NuGetRunner
     {

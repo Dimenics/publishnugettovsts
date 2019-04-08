@@ -1,6 +1,6 @@
 ﻿using EnvDTE;
 
-namespace Dime.PublishToVSTS
+namespace Dime.PublishToAzureDevOps
 {
     /// <summary>
     /// Formats a series of nuget commands
@@ -16,6 +16,7 @@ namespace Dime.PublishToVSTS
         /// <returns>A nuget pack command that will create a package for the active project and drops it into the given output folder.</returns>
         internal static string FormatPack(this Project project, string outputFolder, string solutionConfiguration)
         {
+            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
             string projectPath = project.FullName;
             return $@"pack {projectPath} -OutputDirectory {outputFolder} -symbols -IncludeReferencedProjects -Prop Configuration={solutionConfiguration}";
         }

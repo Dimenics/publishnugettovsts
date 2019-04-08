@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dime.PublishToVSTS", "dime.publishtovstsnuget\Dime.PublishToVSTS.csproj", "{87774045-0326-4865-9592-67028175DFB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dime.PublishToAzureDevOps", "dime.publishtovstsnuget\Dime.PublishToAzureDevOps.csproj", "{87774045-0326-4865-9592-67028175DFB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

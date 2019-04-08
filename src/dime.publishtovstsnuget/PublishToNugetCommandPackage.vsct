@@ -14,7 +14,7 @@
         <Parent guid="guidPublishToNugetCommandPackageCmdSet" id="DimeMenuGroup" />
         <Icon guid="dimeIcon" id="dimeIcon1" />
         <Strings>
-          <ButtonText>Publish to VSTS</ButtonText>
+          <ButtonText>Publish to Azure DevOps</ButtonText>
         </Strings>
       </Button>
     </Buttons>

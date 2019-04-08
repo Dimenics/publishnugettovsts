@@ -1,7 +1,7 @@
 ﻿using EnvDTE;
 using System;
 
-namespace Dime.PublishToVSTS
+namespace Dime.PublishToAzureDevOps
 {
     internal static class ProjectExtensions
     {
@@ -12,6 +12,7 @@ namespace Dime.PublishToVSTS
         /// <returns>A formatted string of the assembly version, which is major.minor.build</returns>
         internal static string GetLatestPackageVersion(this Project project)
         {
+            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
             Version assemblyVersion = new Version(project.Properties.Item("AssemblyVersion").Value.ToString());
             return $"{assemblyVersion.Major}.{assemblyVersion.Minor}.{assemblyVersion.Build}";
         }

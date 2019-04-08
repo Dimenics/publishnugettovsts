@@ -5,7 +5,7 @@ using System;
 using System.ComponentModel.Design;
 using System.IO;
 
-namespace Dime.PublishToVSTS
+namespace Dime.PublishToAzureDevOps
 {
     /// <summary>
     /// Command handler
@@ -86,6 +86,7 @@ namespace Dime.PublishToVSTS
         /// <param name="e">Event args.</param>
         private void MenuItemCallback(object sender, EventArgs e)
         {
+            ThreadHelper.ThrowIfNotOnUIThread();
             // Get the current project
             DTE2 dTE2 = Package.GetGlobalService(typeof(EnvDTE.DTE)) as DTE2;
             Project project = ((Array)dTE2.ActiveSolutionProjects).GetValue(0) as Project;
