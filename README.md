@@ -20,3 +20,7 @@ This repository contains code for a Visual Studio Extension to create a NuGet pa
 5) You may be requested to provide credentials (therefore the need of the `CredentialProvider.VSS` file)
 6) You will see two dialog windows popping up but they will automatically close.
 7) If everything succeeded you should now have your package in the VSTS feed
+
+# Install
+
+Install the extension from the [market place](https://marketplace.visualstudio.com/items?itemName=Dimenics.ds-publishnuget).

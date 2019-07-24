@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="hbulens.publishnugettovsts.013e693c-a5c7-45e0-a127-4b535732272e" Version="1.3.1" Language="en-US" Publisher="Hendrik Bulens" />
-        <DisplayName>Dime.PublishNuGetToAzureDevOps</DisplayName>
+        <Identity Id="dime.publishnugettovsts.013e693c-a5c7-45e0-a127-4b535732272e" Version="1.0.0" Language="en-US" Publisher="Dimenics" />
+        <DisplayName>Publish NuGet package to Azure DevOps</DisplayName>
         <Description xml:space="preserve">Packs and publishes the project's nuget package to a Azure DevOps feed.</Description>
         <GettingStartedGuide>gettingstarted.txt</GettingStartedGuide>
         <ReleaseNotes>releasenotes.txt</ReleaseNotes>
-        <Icon>Resources\dime.ico</Icon>
-        <PreviewImage>Resources\dime.ico</PreviewImage>
+        <Icon>Resources\dime-32x32.ico</Icon>
+        <PreviewImage>Resources\dime-200x200.png</PreviewImage>
         <Tags>VSTS;AzureDevOps;Dime;NuGet;Pack;Publish;</Tags>
+        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0]" />
